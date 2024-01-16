@@ -1,0 +1,47 @@
+.forma {
+  width: 350px;
+  height: 100%;
+  border: 2px solid rgb(204, 70, 155);
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  outline: none;
+}
+.label {
+  font-size: 20px;
+  font-weight: 600;
+  color: grey;
+}
+
+.input {
+  padding: 5px 3px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 18px;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover,
+  &:focus {
+    outline: none;
+    border-color: rgb(204, 70, 155);
+  }
+}
+
+.dtnAdd {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover,
+  &:focus {
+    background-color: rgb(204, 70, 155);
+  }
+}

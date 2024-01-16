@@ -1,0 +1,30 @@
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactLi {
+  position: relative;
+  height: 30px;
+  width: 350px;
+  color: grey;
+  font-size: 18px;
+}
+.btnLi {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 1px 6px;
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover,
+  &:focus {
+    background-color: rgb(204, 70, 155);
+  }
+}
